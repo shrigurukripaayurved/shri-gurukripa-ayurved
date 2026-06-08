@@ -152,13 +152,23 @@ grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:20px;
 }
 
+.gallery a{
+display:block;
+overflow:hidden;
+border-radius:12px;
+}
+
 .gallery img{
 width:100%;
 height:260px;
 object-fit:cover;
 border-radius:12px;
+transition:0.3s ease;
 }
 
+.gallery img:hover{
+transform:scale(1.05);
+}
 .contact{
 background:white;
 padding:40px;
@@ -248,6 +258,9 @@ z-index:999;
 <p><strong>Your Skin Is Our Concern</strong></p>
 
 <p>Skin Specialty Ayurvedic Clinic - Indore</p>
+<p>
+Psoriasis | Eczema | Acne | Skin Allergy | Hair Fall Treatment
+</p>
 
 <a class="btn whatsapp" href="https://wa.me/919685109000">WhatsApp Now</a>
 
@@ -269,8 +282,9 @@ z-index:999;
 <h2>Dr. Shrimaya Choyal</h2>
 
 <p><strong>B.A.M.S., P.G.D.E.M.S.</strong></p>
-
-<p>
+<p style="color:#0d7c3e;font-weight:bold;margin-top:10px;">
+Ayurvedic Skin & Lifestyle Specialist
+</p>
 Experienced Ayurvedic Consultant dedicated to providing safe and effective Ayurvedic treatment for skin diseases and lifestyle disorders.
 </p>
 
@@ -333,14 +347,21 @@ Special focus on Psoriasis, Eczema, Acne, Skin Allergy, Pigmentation, Hair Probl
 
 <div class="gallery">
 
-<img src="SGA01.jpg">
+<a href="SGA01.jpg" target="_blank">
+    <img src="SGA01.jpg" alt="Shri Gurukripa Ayurved Clinic">
+</a>
 
-<img src="IMG20250720135240.jpg">
+<a href="IMG20250720135240.jpg" target="_blank">
+    <img src="IMG20250720135240.jpg" alt="Clinic Interior">
+</a>
 
-<img src="IMG20250720135257.jpg">
+<a href="IMG20250720135257.jpg" target="_blank">
+    <img src="IMG20250720135257.jpg" alt="Clinic Treatment Area">
+</a>
 
-<img src="IMG20250720135306.jpg">
-
+<a href="IMG20250720135306.jpg" target="_blank">
+    <img src="IMG20250720135306.jpg" alt="Shri Gurukripa Ayurved">
+</a>
 </div>
 
 </section>
@@ -409,7 +430,7 @@ target="_blank">
 
 <footer>
 
-© 2025 Shri Gurukripa Ayurved | All Rights Reserved
+© 2025 Shri Gurukripa Ayurved | Skin Specialty Ayurvedic Clinic, Indore | All Rights Reserved
 
 </footer>
 
