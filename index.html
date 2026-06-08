@@ -154,11 +154,27 @@ background:white;
 padding:30px;
 border-radius:15px;
 box-shadow:0 5px 20px rgba(0,0,0,.08);
-max-width:700px;
+max-width:1000px;
 margin:auto;
 text-align:center;
 }
+.contact-wrapper{
+display:grid;
+grid-template-columns:1fr 1.5fr;
+gap:30px;
+align-items:start;
+}
 
+.contact-info{
+text-align:left;
+}
+
+.map-box iframe{
+width:100%;
+height:400px;
+border:0;
+border-radius:15px;
+}
 footer{
 background:#0d7c3e;
 color:white;
@@ -181,7 +197,9 @@ z-index:999;
 }
 
 @media(max-width:768px){
-
+.contact-wrapper{
+grid-template-columns:1fr;
+}
 .hero h1{
 font-size:34px;
 }
@@ -199,8 +217,7 @@ text-align:center;
 <header>
 <div class="container hero">
 
-<img src="SGA Logo01.png" class="logo">
-
+<img src="SGA Logo01.png" class="logo" alt="Shri Gurukripa Ayurved Logo">
 <div class="hero-content">
 <h1>Shri Gurukripa Ayurved</h1>
 
@@ -222,7 +239,7 @@ text-align:center;
 
 <div class="about">
 
-<img src="Dr Shrimaya.jpg">
+<img src="Dr Shrimaya.jpg" alt="Dr Shrimaya Choyal">
 
 <div>
 <h2>Dr. Shrimaya Choyal</h2>
@@ -313,7 +330,14 @@ Special focus on Psoriasis, Eczema, Acne, Skin Allergy, Pigmentation, Hair Probl
 <h2 class="section-title">Visit Our Clinic</h2>
 
 <div class="contact">
+<div class="contact-wrapper">
 
+<div class="contact-info">
+<h2>Book Your Consultation Today</h2>
+
+<p>
+Expert Ayurvedic Skin Care & Lifestyle Treatment in Indore
+</p>
 <h3>Shri Gurukripa Ayurved</h3>
 
 <p>
@@ -343,15 +367,22 @@ href="https://maps.app.goo.gl/K6WYKrM2hjQ6n9xf6"
 target="_blank">
 📍 Open Google Maps
 </a>
-<br><br>
+    
+ <br><br>
+
+<a class="btn call" href="tel:+919685109000">
+📞 Call Now
+</a>
+
+<div class="map-box">
 
 <iframe
-src="https://www.google.com/maps?q=22.718280,75.881725&z=17&output=embed"
-width="100%"
-height="350"
-style="border:0;border-radius:15px;margin-top:20px;"
+src="https://www.google.com/maps?q=22.7196,75.8577&z=16&output=embed"
 loading="lazy">
 </iframe>
+
+</div>
+
 </div>
 
 </section>
