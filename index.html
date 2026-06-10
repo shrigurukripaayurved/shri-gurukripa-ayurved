@@ -249,7 +249,8 @@ margin:auto;
 }
 
 form input,
-form textarea{
+form textarea,
+form select{
 padding:14px;
 border:1px solid #ddd;
 border-radius:8px;
@@ -598,7 +599,13 @@ Hair Fall
 <input type="tel" name="phone" placeholder="Mobile Number" required>
 
 <input type="number" name="age" placeholder="Age">
-
+<select name="gender" required>
+    <option value="">Select Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Child">Child</option>
+    <option value="Other">Other</option>
+</select>
 <textarea name="problem" placeholder="Describe Your Problem" rows="5"></textarea>
 
 <button type="submit" class="btn-call">
