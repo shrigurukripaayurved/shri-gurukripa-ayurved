@@ -599,6 +599,7 @@ Hair Fall
 <input type="tel" name="phone" placeholder="Mobile Number" required>
 
 <input type="number" name="age" placeholder="Age">
+
 <select name="gender" required>
     <option value="">Select Gender</option>
     <option value="Male">Male</option>
@@ -606,6 +607,17 @@ Hair Fall
     <option value="Child">Child</option>
     <option value="Other">Other</option>
 </select>
+
+<select name="consultation_type" required>
+    <option value="">Select Consultation Type</option>
+    <option value="Offline Consultation">Offline Consultation</option>
+    <option value="Online Consultation (₹300 Advance Required)">Online Consultation (₹300 Advance Required)</option>
+</select>
+
+<p style="background:#fff3cd;padding:12px;border-radius:8px;color:#856404;font-weight:bold;">
+⚠️ Online Consultation requires ₹300 advance payment before appointment confirmation.
+</p>
+
 <textarea name="problem" placeholder="Describe Your Problem" rows="5"></textarea>
 
 <button type="submit" class="btn-call">
