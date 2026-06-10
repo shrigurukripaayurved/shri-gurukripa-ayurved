@@ -263,10 +263,28 @@ border:none;
 cursor:pointer;
 }
 
+.before-after-gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.before-after-gallery img{
+width:100%;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+transition:0.3s;
+cursor:pointer;
+}
+
+.before-after-gallery img:hover{
+transform:scale(1.03);
+}
+
 footer{
 background:#0d7c3e;
 color:white;
-text-align:center;
 padding:20px;
 margin-top:40px;
 }
@@ -528,8 +546,16 @@ Hair Fall
 
 <h2 class="section-title">Clinic Gallery</h2>
 
-<div class="gallery">
+<div class="before-after-gallery">
 
+<img src="Before after 1.jpeg" alt="Before After Result 1">
+<img src="Before after 2.jpeg" alt="Before After Result 2">
+<img src="Before after 3.jpeg" alt="Before After Result 3">
+<img src="Before after 4.jpeg" alt="Before After Result 4">
+<img src="Before after 5.jpeg" alt="Before After Result 5">
+<img src="Before after 6.jpeg" alt="Before After Result 6">
+
+</div>
 <a href="SGA01.jpg" target="_blank">
     <img src="SGA01.jpg" alt="Shri Gurukripa Ayurved Clinic">
 </a>
