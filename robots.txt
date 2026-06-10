@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shrigurukripaayurved.github.io/shri-gurukripa-ayurved/sitemap.xml
